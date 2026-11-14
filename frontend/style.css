@@ -1,0 +1,12 @@
+body { background: #0b1020; color: white; font-family: Arial; text-align: center; }
+canvas#sky { background: black; width: 90%; max-width: 640px; cursor: crosshair; }
+canvas#lens { background: black; width: 160px; height: 160px; border: 2px solid orange; border-radius: 8px; }
+button { padding: 8px 16px; font-size: 16px; cursor: pointer; }
+button.on { background: orange; font-weight: bold; }
+#info { color: orange; max-width: 640px; margin: 10px auto; }
+#stats { color: lightgreen; }
+#list { max-width: 640px; margin: auto; padding-bottom: 40px; }
+.item { padding: 10px; margin: 6px 0; border: 1px solid #2a3560; border-radius: 6px; cursor: pointer; }
+.item:hover { border-color: orange; }
+.mv { color: orange; }
+.ch { color: deepskyblue; }
